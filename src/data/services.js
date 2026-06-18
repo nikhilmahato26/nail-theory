@@ -1,6 +1,3 @@
-import pressOnImg from '../assets/press-on-nails.jpg'
-import gelNailsImg from '../assets/gel-nails.jpg'
-
 // Service catalogue
 export const services = [
   {
@@ -10,7 +7,8 @@ export const services = [
     description:
       'Featherlight, flexible soft gel extensions that add length and strength while looking effortlessly natural. Shaped, sculpted and finished to perfection.',
     price: 'from ₹999',
-    image: gelNailsImg,
+    image:
+      'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80',
     tags: ['Length', 'Strength', 'Natural'],
   },
   {
@@ -42,7 +40,8 @@ export const services = [
     description:
       'Made-to-measure designer press-on sets, reusable and ready in minutes. The perfect luxury for events, travel or a quick mood refresh.',
     price: 'from ₹899',
-    image: pressOnImg,
+    image:
+      'https://images.unsplash.com/photo-1604902396830-aca29e19b067?auto=format&fit=crop&w=900&q=80',
     tags: ['Reusable', 'Made-to-measure', 'Travel'],
   },
   {

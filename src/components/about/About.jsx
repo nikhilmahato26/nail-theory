@@ -4,6 +4,7 @@ import { ArrowRight, Quote } from 'lucide-react'
 import Reveal from '../common/Reveal'
 import { Sparkle } from '../common/Decorations'
 import { fadeUp, staggerContainer, scaleIn, revealViewport } from '../../utils/motion'
+import aboutImg from '../../assets/about-soumya.jpg'
 
 const stats = [
   { value: '4+', label: 'Years of artistry' },
@@ -28,7 +29,7 @@ export default function About() {
           <div className="absolute -left-4 -top-4 h-full w-full rounded-[2.5rem] border border-rose/60" />
           <div className="relative overflow-hidden rounded-[2.5rem] shadow-soft-lg">
             <img
-              src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=900&q=80"
+              src={aboutImg}
               alt="Soumya, luxury nail artist at work"
               className="aspect-[4/5] w-full object-cover"
             />
@@ -64,24 +65,28 @@ export default function About() {
             variants={fadeUp}
             className="mt-4 font-display text-3xl leading-tight text-charcoal sm:text-4xl lg:text-[2.75rem]"
           >
-            Hi, I’m <span className="italic text-gradient">Soumya</span>.
+            Hi, I’m <span className="italic text-gradient">Soumya Arora</span>, the founder of Nail Theory by Soumya.
           </motion.h2>
 
           <motion.p
             variants={fadeUp}
             className="mt-6 font-sans text-base leading-relaxed text-charcoal/70"
           >
-            A passionate nail artist dedicated to creating elegant, creative, and customized nail
-            designs. I believe your nails are a quiet form of self-expression — so I take the time to
-            understand your style, mood and personality before the first brushstroke.
+            I am a certified nail artist passionate about creating beautiful, high-quality nails that help clients feel confident and express their personal style. Nail Theory is a home-based nail studio in Delhi NCR specializing in soft gel extensions, custom nail art, gel polish applications, press-on nails, nail maintenance, and basic nail care.
           </motion.p>
 
           <motion.p
             variants={fadeUp}
             className="mt-4 font-sans text-base leading-relaxed text-charcoal/70"
           >
-            Every set is crafted with attention to detail and luxury-level care, in a calm, hygienic
-            home studio where you can truly relax.
+            My goal is to provide a comfortable, personalized experience while delivering trendy, long-lasting nail designs tailored to each client’s preferences.
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            className="mt-6 font-display text-xl italic text-rosegold font-semibold"
+          >
+            ✨ Pretty Nails, Pretty Mood ✨
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-8 grid grid-cols-3 gap-4">

@@ -1,3 +1,5 @@
+import testimonialChat from '../assets/testimonial-chat.jpg'
+
 // Authentic-feeling client reviews
 export const testimonials = [
   {
@@ -39,5 +41,34 @@ export const testimonials = [
     rating: 5,
     text: 'Every set feels custom and considered. The attention to detail is on another level — soft, elegant and exactly my aesthetic. Truly Pinterest-worthy nails.',
     avatar: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 6,
+    name: 'Neha Arora',
+    role: 'Verified Client',
+    rating: 5,
+    text: 'Absolutely loved my nails! The finish was neat, the design was exactly what I wanted, and the whole experience was so comfortable.',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 7,
+    name: 'Khushboo',
+    role: 'Verified Client',
+    rating: 5,
+    text: 'Perfect for anyone looking for Pinterest-inspired nails. Soumya understood exactly what I wanted and delivered beyond my expectations.',
+    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 8,
+    name: 'Tanya',
+    role: 'Verified Client',
+    rating: 5,
+    text: 'Such a sweet and patient nail artist. She explained the aftercare properly and the nails lasted beautifully.',
+    avatar: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80',
+  },
+  {
+    id: 9,
+    isImage: true,
+    image: testimonialChat,
   },
 ]

@@ -11,8 +11,8 @@ export const site = {
   email: 'Arorasoumya242006@gmail.com',
   businessType: ['Home Based Nail Studio', 'Freelance Nail Artist', 'Luxury Nail Services'],
   whatsapp: 'https://wa.me/917982691008',
-  instagram: 'https://instagram.com',
-  instagramHandle: '@nailtheory_bysoumya',
+  instagram: 'https://www.instagram.com/nailtheoryby.soumya?igsh=MXp5Z2xzYWR5YzZj&utm_source=qr',
+  instagramHandle: '@nailtheoryby.soumya',
 }
 
 export const navLinks = [
